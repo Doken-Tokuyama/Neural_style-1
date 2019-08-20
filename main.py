@@ -23,7 +23,7 @@ def build_parser():
                     help='Size for resize image during training', default=256)
 
     parser.add_argument('--cropsize', type=int,
-                    help='Size for crop image durning training', default=240)
+                    help='Size for crop image durning training', default=None)
 
     parser.add_argument('--vgg-flag', type=str,
                     help='VGG flag for calculating losses: vgg16 or vgg19 ', default='vgg16')
