@@ -29,16 +29,16 @@ def build_parser():
                     help='VGG flag for calculating losses: vgg16 or vgg19 ', default='vgg16')
 
     parser.add_argument('--content-layers', type=int, nargs='+', 
-                    help='layer indices to extract content features', default=[15])
+                    help='layer indices to extract content features, vgg16: 15, vgg19: 20', default=[15])
     
     parser.add_argument('--style-layers', type=int, nargs='+',
-                    help='layer indices to extract style features', default=[3, 8, 15, 22])
+                    help='layer indices to extract style features, vgg16: [3,8,15,22], vgg19: [1,6,11,20,29]', default=[3, 8, 15, 22])
 
     parser.add_argument('--content-weight', type=float, 
                     help='content loss weight', default=1.0)
     
     parser.add_argument('--style-weight', type=float,
-                    help='style loss weight', default=5.0)
+                    help='style loss weight', default=50.0)
 
     parser.add_argument('--tv-weight', type=float,
                     help='tv loss weight', default=5.0)
