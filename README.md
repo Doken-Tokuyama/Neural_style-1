@@ -3,8 +3,10 @@ Pytorch implementation of "Image Style Transfer Using Convolutional Neural Netwo
 
 Pytorch implementation of the paper:
 "Image Style Transfer Using Convolutional Neural Networks"
-Leon A. Gatys, Alexander S. Ecker, Matthias Bethge,
-CVPR 2016
+
+Leon A. Gatys, Alexander S. Ecker, Matthias Bethge.
+
+CVPR 2016.
 
 Dependencies
 --
