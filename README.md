@@ -12,5 +12,6 @@ Dependencies
 
 Usage example
 --
-```python main.py --cuda-device-no 0 --target-content-filename sample_images/content_images/chicago.jpg --target-style-filename sample_images/style_images/mondrian.jpg
+```
+python main.py --cuda-device-no 0 --target-content-filename sample_images/content_images/chicago.jpg --target-style-filename sample_images/style_images/mondrian.jpg --save-filename stylized.png
 ```
